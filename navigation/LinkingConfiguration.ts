@@ -18,6 +18,12 @@ const linking: LinkingOptions<RootStackParamList> = {
           TabOne: {
             screens: {
               TabOneScreen: 'one',
+              // screens: {
+              //   Library: 'lib',
+              //   screens: {
+              //     DetailScreen: "det"
+              //   }
+              // }
             },
           },
           TabTwo: {
@@ -28,6 +34,7 @@ const linking: LinkingOptions<RootStackParamList> = {
         },
       },
       Modal: 'modal',
+      //Detail: 'detail',
       NotFound: '*',
     },
   },
